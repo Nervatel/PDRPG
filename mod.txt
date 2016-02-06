@@ -3,12 +3,12 @@
 	"description"	:   "",
 	"author"   :   "Nervatel",
 	"hooks"	:   [
-		{ "hook_id"	: "lib/tweak_data/skilltreetweakdata", "script_path" : "skilltree.lua" },		
-		{ "hook_id"	: "lib/managers/localizationmanager", "script_path"	: "loc_EN.lua" },
-		{ "hook_id"	: "lib/tweak_data/upgradestweakdata", "script_path" : "upgrades.lua" },
-		{ "hook_id"	: "lib/tweak_data/interactiontweakdata", "script_path" : "util/interaction.lua" },
-		{ "hook_id"	: "lib/tweak_data/equipmentstweakdata", "script_path" : "util/equipment.lua" },
-		{ "hook_id"	: "lib/managers/menu/skilltreegui", "script_path" : "util/skilltreegui.lua" },
-		{ "hook_id"	: "lib/tweak_data/playertweakdata", "script_path" : "util/playertweakdata.lua" }
+		{ "hook_id"	: "lib/tweak_data/skilltreetweakdata", "script_path" : "lua/skilltree.lua" },		
+		{ "hook_id"	: "lib/managers/localizationmanager", "script_path"	: "lua/loc_EN.lua" },
+		{ "hook_id"	: "lib/tweak_data/upgradestweakdata", "script_path" : "lua/upgrades.lua" },
+		{ "hook_id"	: "lib/tweak_data/interactiontweakdata", "script_path" : "lua/util/interaction.lua" },
+		{ "hook_id"	: "lib/tweak_data/equipmentstweakdata", "script_path" : "lua/util/equipment.lua" },
+		{ "hook_id"	: "lib/managers/menu/skilltreegui", "script_path" : "lua/util/skilltreegui.lua" },
+		{ "hook_id"	: "lib/tweak_data/playertweakdata", "script_path" : "lua/util/playertweakdata.lua" }
 		]
 }
